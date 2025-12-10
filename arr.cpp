@@ -1,4 +1,5 @@
 #include <iostream>
+#include <limits>
 using namespace std;
 
 int main() {
@@ -9,7 +10,7 @@ int main() {
     int mx = arr[0];
     int sum = 0;
 
-    / main loop
+    // main loop
     for (int i = 0; i < n; i++) {
         if (arr[i] < mn) mn = arr[i];
         if (arr[i] > mx) mx = arr[i];
